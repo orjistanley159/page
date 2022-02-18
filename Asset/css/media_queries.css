@@ -1,0 +1,265 @@
+@media only screen and (max-width:1160px){
+    #home_page{
+        background-position-y: 0px;
+    }
+}
+@media only screen and (max-width:1280px){
+    .popular_courses{
+        height: 40vh;
+    }
+    .course_category{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .course_title{
+        width: 30%;
+        
+    }
+}
+    @media only screen and (max-width:1024px){
+        .card_body{
+            padding: 0px 5px;
+        }
+        .cert{
+            justify-content: start;
+        }
+        .teachers_card{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .card_logo::after{
+            width: 20%;
+            height: 13vh;
+            left: 40%;
+        }
+        /* popular courses */
+        .popular_courses{
+            height: fit-content;
+        }
+        .course_category{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .course_title{
+            width: 30%;
+            
+        }
+        .works{
+            background-color: white;
+            padding: 20px 10px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            width: 30%;
+        }
+       
+    }
+@media only screen and (max-width: 812px){
+
+    nav{
+        background-color: rgba(0, 0, 0, 0.514);
+        height: 40vh;
+        padding-top: 0px;
+        
+    }
+    .nav_bar{
+        flex-direction: column;
+        height: 30vh;
+        position:static;
+       
+    }
+    .menu{
+        flex-wrap: wrap;
+        justify-content: center;
+        order: 2;
+        margin-top: 15px;
+    }
+
+    img{
+        height: 110px;
+        width: 75%;
+    }
+    .home_page_body{
+        padding: 10px 0px; 
+    }
+    .body_heading{
+        width: 100%;
+        padding: 0 7px;
+    }
+    .body_h2{
+        font-size: 1.2rem; 
+    }
+    .body_paragraph{
+        width: 100%;
+        padding: 0 7px;
+        margin-top: 7%;
+        margin-bottom: 40px;
+    }
+    .body_parag{
+        font-size: 0.8rem;
+    }
+    .home_page_form{
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        /* border: black solid; */
+    }
+    .form_box{
+        width: 200px;
+    }
+    .home_input{
+        width: 200px;
+    }
+    .form_button{
+        height: 30px;
+        width: 70px;
+    }
+    /* teachers section */
+    .teachers_heading{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .teachers_head{
+        font-size: 1rem;
+    }
+    .teachers_btn{
+        padding: 8px 5px;
+    }
+    .teachers_card{
+        display: flex;
+        flex-direction: column;
+    }
+    .card_logo::after{
+        width: 35%;
+        height: 13vh;
+        left: 32%;
+    }
+    .card_body{
+        padding: 0px 5px;
+    }
+    .card_bio{
+        top: 5%;
+        position: relative;
+    }
+    .card_bio_paragraph{
+        font-size: 15px;
+    }
+   
+    /* Popular Courses */
+    .popular_courses{
+        height: fit-content;
+        width: 100%;
+        background-color: lightgray;
+        padding: 40px 10px;
+    }
+    .pop_course_head{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+    .pop_course_h3{
+        font-size: 2rem;
+    }
+    .pop_course_btn{
+        border: 2px black solid;
+        color: black;
+        font-size: 1rem;
+    }
+    .course_category{
+        display: flex;
+        flex-direction: column;
+    }
+    .course_title{
+        width: 100%;
+    }
+
+    /* how it works */
+
+    #how_it_works{
+        background-color: darkgray;
+        padding: 30px 10px;
+        width: 100%;
+        height: fit-content;
+    }
+    .how_it_works_head{
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .works_card{
+        display: flex;
+        flex-direction: column;
+    }
+    .works{
+        background-color: white;
+        padding: 20px 10px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .works_btn{
+        background-color: rgb(12, 56, 12);
+        color: white;
+    }
+
+    /* section */
+    .section_body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section_h2{
+        color: white;
+        margin-bottom: 10px;
+        font-size: 1rem;
+    }
+    .section_btn{
+        border: white solid 1px;
+        color: white;
+    }
+
+    /* footer */
+    #footer{
+        height: fit-content;
+        width: 100%;
+        background-color: rgb(6, 28, 37);
+        padding: 30px 20px;
+    }
+    footer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .footer_logo{
+        height: 200px;
+        width: 200px;
+    }
+    .footer_list{
+        margin-right: 0%;
+        display: flex;
+        
+    }
+    
+    .footer_list_items li a{
+        color: white;
+    }
+    .footer_parag{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer_paragraph{
+        color: white;
+        margin-top: 20px;
+    }
+    
+    
+}

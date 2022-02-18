@@ -1,0 +1,434 @@
+/* Attached css files */
+@import url(./media_queries.css);
+
+/* end of attached files */
+
+/* helper classes */
+    
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style-type: none;
+}
+
+.btn{
+    background-color: transparent;
+    border: none;
+    color: white;
+    /* border: 3px black solid; */
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+img{
+    height: 110px;
+    width: 70%;
+}
+.container{
+    padding: 110px 90px ;
+}
+.box{
+    padding: 0px 20px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#icon{
+    outline-color: white;
+}
+form{
+    display: flex;
+    gap: 10px;
+}
+/* Home page Styling */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#home_page{
+    background: rgba(0, 0, 0, 0.1) url("../images/banner.jpg") no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position-y: -110px;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+
+
+nav{
+    width: 100%;
+    height: 10vh;
+    /* background-color: brown; */
+    padding-top:30px;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+.nav_bar{
+    width: 90%;
+    height: 10vh;
+    /* background-color: rgba(0, 0, 0, 0.226) ; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* position: fixed;
+    z-index: 2;
+    box-shadow: 0px 0px 7px 1px  black; */
+    
+}
+.site_logo{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 130px;
+    height: 110px;
+}
+
+.menu{
+    display: flex;
+    position: relative;
+    right: 1%;
+}
+
+.menu_items{
+    padding: 5px 15px;
+    transition: 0.5s ease;
+    margin-bottom: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.menu_items:hover{
+    background-color: rgba(255, 255, 255, 0.308);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 5px white;
+}
+
+
+.auth_btn2{
+    background-color: rgb(39, 209, 124);
+    
+}
+
+.btn:hover{
+    background-color:rgb(188, 236, 212) ;
+    box-shadow: 0px 0px 5px 3px white;
+    color: black;
+    font-weight: bold;
+    transition: 0.6s ease;
+}
+.body_heading{
+    width: 45%;
+}
+.body_h2{
+    font-size: 2.5rem;
+    color: white;
+}
+.body_paragraph{
+    width: 35%;
+    margin-top: 5%;
+}
+.body_parag{
+    color: white;
+
+}
+.home_page_form{
+    width: 76%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+}
+.form_box{
+    border-bottom: 2px rgb(233, 230, 230) solid;
+    width: 350px;
+}
+.home_input{
+    width: 350px;
+    border: none;
+    background-color: transparent;
+    -style: none;
+}
+.form_button{
+    background-color: rgb(39, 209, 124);
+    height: 50px;
+    width: 40px;
+    padding: 0;
+}
+.form_button:hover{
+    background-color: none;
+    box-shadow: none;
+}
+/* teachers section styling */
+#teachers_page{
+    padding: 30px 25px;
+}
+.teachers_heading{
+    display: flex;
+    justify-content: space-between;
+}
+.teachers_btn, .teachers_btn:hover{
+    border: 2px solid black;
+    color: black;
+    background-color: transparent;
+    font-weight: normal;
+}
+.teachers_card{
+    padding-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.card{
+    width: 100%;
+    height: 90vh;
+    /* border: black solid 3px; */
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 4px lightgray;
+}
+
+.card_logo{
+    width: 100%;
+    height: 18vh;
+    background-image: url("../images/teachable.png");
+    position: relative;
+}
+.card_logo::before{
+    content: "";
+    width: 100%;
+    height: 18vh;
+    background-color: rgba(48, 177, 171, 0.253);
+    position: absolute;
+    z-index: 1;
+    top: %;
+    left:%;
+    
+}
+.card_logo::after{
+    content: '';
+    width: 35%;
+    height: 15vh;
+    clip-path: circle();
+    background-image: url("../images/t1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: 2;
+    top: 60%;
+    left: 32%;
+}
+.card_body{
+    /* border: black solid; */
+    width: 100%;
+    height: 45vh;
+    position: relative;
+    padding: 0px 25px;
+    top: 9%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4px;
+}
+.card_body_details{
+    /* border: solid black; */
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    align-items: ;
+    display: flex;
+    flex-direction: column;
+}
+.card_bio{
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    top: 60px;
+    padding: 7px;
+}
+.cert{
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    justify-content: center;
+    align-items: center;
+}
+.certificate{
+    background-color: lightgray;
+    padding: 2px 4px;
+    border-radius: 5px;
+}
+.card_bio_paragraph{
+    text-align: justify;
+
+}
+/* Popular Courses */
+.popular_courses{
+    height: 50vh;
+    width: 100%;
+    background-color: lightgray;
+    padding: 40px 30px;
+}
+.pop_course_head{
+    display: flex;
+    justify-content: space-between;
+}
+.pop_course_btn{
+    border: 2px black solid;
+    color: black;
+}
+.course_category{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding-top: 20px;
+    /* border: solid black; */
+}
+.course_title{
+    width: 30%;
+    height: 9vh;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    padding: 0px 8px;
+}
+
+/* how it works */
+#how_it_works{
+    background-color: darkgray;
+    padding: 30px 30px;
+    width: 100%;
+    height: fit-content;
+}
+.how_it_works_head{
+    margin-bottom: 20px;
+}
+.works_card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+.works{
+    flex-direction: column;
+    background-color: white;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    height: 30vh;
+    width: 32%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.works_btn{
+    background-color: rgb(12, 56, 12);
+    color: white;
+}
+
+/* section styling */
+#section{
+    height: 40vh;
+    width: 100%;
+    background: url("../images/banner-1.jpg") rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: 51%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section_body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section_h2{
+    color: white;
+    margin-bottom: 10px;
+}
+.section_btn{
+    border: white solid 1px;
+    color: white;
+}
+
+/* footer */
+#footer{
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(6, 28, 37);
+    padding: 30px 60px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer_logo{
+    height: 200px;
+    width: 200px;
+}
+.footer_list{
+    margin-right: 15%;
+}
+
+.footer_list_items li a{
+    color: white;
+}
+.footer_parag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_paragraph{
+    color: white;
+}
+
+/* icons */
+.fa_icon{
+    margin-bottom: 60px;
+}
+.fa-search, .fa-wallet, .fa-user-friends{
+    font-size: 3rem;
+    color: green;
+}
+.one{
+    font-size: medium;
+    color: white;
+}
+.fa-map-marker-alt, .fa-book-open{
+    color: white;
+}
+.course_icon{
+    padding: 0px 15px;
+    font-size: 1.5rem;
+}
+.fa-calculator, .fa-language, .fa-flask, .fa-stopwatch, .fa-venus-mars, .fa-laptop-code{
+    color: green;
+}
+.card_icon{
+
+}
+.fa-user, .fa-map-marker, .fa-award, .fa-graduation-cap, .fa-user-check, .fa-project-diagram{
+    color: green;
+
+}
+
+.progress_icon{
+    font-size: 4rem;
+}
+.fa-circle-notch{
+    color: green;
+    font-weight: lighter;
+}
+

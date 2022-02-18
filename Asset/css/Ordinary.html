@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+}
+
+.one{
+    background-color: red;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-iteration-count: 100;
+    animation-timing-function: ease-in-out;
+}
+
+.two{
+    background-color: green;
+    transition-property: width, background;
+    transition-duration: 3s;
+}
+
+.three{
+    background-color: yellow;
+    transition-property: background, border-radius ;
+    transition-duration: 3s, 2s;
+}
+
+.three:hover{
+    background-color: brown;
+    border-radius: 50%;
+}
+.two:hover{
+    width: 70vw;
+    background-color: cadetblue;
+}
+
+@keyframes move{
+    10%{
+        transform: rotate
+        background-color: darkorchid;
+    }
+   
+}
+</style>
+
+</head>
+<body>
+
+    <div>
+        <div class="one">Hover me</div>
+        <div class="two">Hover me</div>
+        <div class="three">Hover me</div>
+    </div>
+
+
+</body>
+</html>
